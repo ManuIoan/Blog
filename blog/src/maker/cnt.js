@@ -8,7 +8,7 @@ function Cnt({bl}) {
                     {bl.id}
                 </div>
                 <div className="id">
-                    {bl.titlu}
+                    <a href="">{bl.titlu}</a>
                 </div>
                 <div className="id">
                     {bl.descriere}

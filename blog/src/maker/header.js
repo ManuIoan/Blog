@@ -6,7 +6,7 @@ function header() {
 
         
       <ul>
-        <li>
+        <li class="f1">
           <a href=''>Acasa</a>
         </li>
         <li>

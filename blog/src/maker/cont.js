@@ -29,11 +29,13 @@ function Cont() {
 
  
   return(
-      <>
+      <div className="parc">
+       <p>The last vlogs</p>
   {
+    
     blg.map((bl) => <Cnt key={bl.id} bl={bl} />)
   }
-  </>
+  </div>
   )
 }
 

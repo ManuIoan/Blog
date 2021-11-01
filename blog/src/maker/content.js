@@ -1,6 +1,7 @@
 /** @format */
 
 import Cont from "./cont";
+import img1 from "./ads.jpg"
 
 function Content() {
   
@@ -9,7 +10,7 @@ function Content() {
   return (
     <div className='area'>
       <div className="carte">
-        <p>The last vlogs</p>
+      
         <Cont />
       </div>
       <div className='total'>
@@ -53,9 +54,58 @@ function Content() {
           nec risus. Aliquam dignissim purus non lacinia laoreet. Aenean vel
           nunc aliquet, malesuada quam nec, placerat nunc.
         </div>
+        <div className='text'>
+          {" "}
+          et posuere nunc accumsan ac. Nam odio ante, consectetur a sodales in,
+          feugiat a lectus. Integer quis sem mattis, mollis metus ac, commodo
+          dui. Nunc nec risus non magna condimentum faucibus a sed diam.
+          Praesent mollis dolor id dictum pellentesque. Cras consequat vel nisl
+          vel posuere. Cras porta tincidunt pellentesque. Lorem ipsum dolor sit
+          amet, consectetur adipiscing elit. Maecenas condimentum molestie arcu.
+          Nullam fringilla accumsan ex eget bibendum. Praesent pretium vel est
+          nec blandit. Fusce a diam diam. Sed sed laoreet odio. Aliquam feugiat
+          imperdiet hendrerit. Cras mollis, risus quis laoreet sagittis, eros
+          ligula consequat felis, sit amet imperdiet ipsum mauris in ligula.
+          Duis non mi ut tellus malesuada ultrices lacinia at neque. Suspendisse
+          consectetur mollis erat consequat aliquet. Vivamus tempor sapien
+          massa, nec interdum diam auctor in. Mauris libero velit, imperdiet sit
+          amet felis vitae, iaculis pharetra mi. Integer at ante posuere,
+          vehicula libero vestibulum, maximus nisl. Phasellus et eros dictum,
+          euismod neque eget, convallis nibh. Integer facilisis nulla ac justo
+          ornare ultricies. Quisque et libero eu sapien cursus dignissim vitae
+          nec risus. Aliquam dignissim purus non lacinia laoreet. Aenean vel
+          nunc aliquet, malesuada quam nec, placerat nunc.
+        </div>
+        <div className='text'>
+          {" "}
+          et posuere nunc accumsan ac. Nam odio ante, consectetur a sodales in,
+          feugiat a lectus. Integer quis sem mattis, mollis metus ac, commodo
+          dui. Nunc nec risus non magna condimentum faucibus a sed diam.
+          Praesent mollis dolor id dictum pellentesque. Cras consequat vel nisl
+          vel posuere. Cras porta tincidunt pellentesque. Lorem ipsum dolor sit
+          amet, consectetur adipiscing elit. Maecenas condimentum molestie arcu.
+          Nullam fringilla accumsan ex eget bibendum. Praesent pretium vel est
+          nec blandit. Fusce a diam diam. Sed sed laoreet odio. Aliquam feugiat
+          imperdiet hendrerit. Cras mollis, risus quis laoreet sagittis, eros
+          ligula consequat felis, sit amet imperdiet ipsum mauris in ligula.
+          Duis non mi ut tellus malesuada ultrices lacinia at neque. Suspendisse
+          consectetur mollis erat consequat aliquet. Vivamus tempor sapien
+          massa, nec interdum diam auctor in. Mauris libero velit, imperdiet sit
+          amet felis vitae, iaculis pharetra mi. Integer at ante posuere,
+          vehicula libero vestibulum, maximus nisl. Phasellus et eros dictum,
+          euismod neque eget, convallis nibh. Integer facilisis nulla ac justo
+          ornare ultricies. Quisque et libero eu sapien cursus dignissim vitae
+          nec risus. Aliquam dignissim purus non lacinia laoreet. Aenean vel
+          nunc aliquet, malesuada quam nec, placerat nunc.
+        </div>
         
         
       </div>
+      <div className="ads">
+       
+        <img src={img1} alt="" />
+      </div>
+
     </div>
   );
 }
