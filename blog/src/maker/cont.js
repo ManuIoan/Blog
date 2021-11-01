@@ -9,7 +9,7 @@ function Cont() {
       id: 1,
       titlu: "Aspirina",
       descriere:
-        "A cu acest medicament, tinand cont de anumite riscuri, efecte secundare, varsta, afectiuni preexistente sau alte tratamente medicamentoase",
+        "A cu acest meecte secundare, varsta, afectiuni preexistente sau alte tratamente medicamentoase",
     },
 
     {
@@ -23,7 +23,7 @@ function Cont() {
       id: 3,
       titlu: "Aspirina",
       descriere:
-        "Aspamentul cu acest medicament, tinand cont de anumite riscuri, efecte secundare, varsta, afectiuni preexistente sau alte tratamente medicamentoase",
+        "Aspamentul cu ac riscuri, efecte secundare, varsta, afectiuni preexistente sau alte tratamente medicamentoase",
     },
   ]);
 
