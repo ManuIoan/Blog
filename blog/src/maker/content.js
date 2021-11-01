@@ -8,6 +8,10 @@ function Content() {
 
   return (
     <div className='area'>
+      <div className="carte">
+        <p>The last vlogs</p>
+        <Cont />
+      </div>
       <div className='total'>
         <div className='title'>Test</div>
         <div className='text'>
@@ -49,8 +53,8 @@ function Content() {
           nec risus. Aliquam dignissim purus non lacinia laoreet. Aenean vel
           nunc aliquet, malesuada quam nec, placerat nunc.
         </div>
-        <p>See the last blogs</p>
-        <Cont />
+        
+        
       </div>
     </div>
   );
