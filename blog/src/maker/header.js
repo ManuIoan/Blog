@@ -1,4 +1,5 @@
 /** @format */
+import { BrowserRouter,Link } from 'react-router-dom';
 
 function header() {
   return (
@@ -6,14 +7,20 @@ function header() {
 
         
       <ul>
-        <li class="f1">
-          <a href=''>Acasa</a>
+      <li class="f1">
+        <BrowserRouter>
+        <Link to="/mars.html">Acasa</Link>
+      </BrowserRouter>
         </li>
         <li>
-          <a href=''>Portofoliu</a>
+         <BrowserRouter>
+        <Link to="/">Portofolio</Link>
+      </BrowserRouter>
         </li>
         <li>
-          <a href=''>Contact</a>
+        <BrowserRouter>
+        <Link to="/">About</Link>
+      </BrowserRouter>
         </li>
       </ul>
       

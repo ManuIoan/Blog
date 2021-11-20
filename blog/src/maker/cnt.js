@@ -5,9 +5,6 @@ function Cnt({bl}) {
         
             <div className="parcela">
                 <div className="id">
-                    {bl.id}
-                </div>
-                <div className="id">
                     <a href="">{bl.titlu}</a>
                 </div>
                 <div className="id">
